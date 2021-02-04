@@ -1,0 +1,813 @@
+                                                                                        * {
+                                                                                            border-width: 0;
+                                                                                        }
+                                                                                        
+                                                                                        body {
+                                                                                            background: #FFFFFF;
+                                                                                            margin: 0;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-size: 16px;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                        }
+                                                                                        
+                                                                                        header {
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                        
+                                                                                        .container {
+                                                                                            width: 1200px;
+                                                                                        }
+                                                                                        
+                                                                                        #logo {
+                                                                                            text-align: left;
+                                                                                            margin-top: 0;
+                                                                                            top: 55px;
+                                                                                        }
+                                                                                        
+                                                                                        .navigation {
+                                                                                            text-align: center;
+                                                                                            display: flex;
+                                                                                            color: #212353;
+                                                                                            align-items: center;
+                                                                                            max-width: 550px;
+                                                                                        }
+                                                                                        
+                                                                                        .navigation li {
+                                                                                            flex: 1;
+                                                                                            display: inline;
+                                                                                        }
+                                                                                        
+                                                                                        .top1 {
+                                                                                            position: absolute;
+                                                                                            width: 53px;
+                                                                                            height: 30px;
+                                                                                            left: 410px;
+                                                                                            top: 55px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .top2 {
+                                                                                            position: absolute;
+                                                                                            width: 53px;
+                                                                                            height: 30px;
+                                                                                            left: 510px;
+                                                                                            top: 55px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .top3 {
+                                                                                            position: absolute;
+                                                                                            width: 53px;
+                                                                                            height: 30px;
+                                                                                            left: 600px;
+                                                                                            top: 55px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .top4 {
+                                                                                            position: absolute;
+                                                                                            width: 53px;
+                                                                                            height: 30px;
+                                                                                            left: 700px;
+                                                                                            top: 55px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .demo {
+                                                                                            position: absolute;
+                                                                                            width: 210px;
+                                                                                            height: 60px;
+                                                                                            left: 1150px;
+                                                                                            top: 40px;
+                                                                                            background: #FFFFFF;
+                                                                                            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .main {
+                                                                                            font-family: Helvetica;
+                                                                                            font-style: normal;
+                                                                                            font-weight: bold;
+                                                                                            font-size: 45px;
+                                                                                            line-height: 210%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                            position: relative;
+                                                                                        }
+                                                                                        
+                                                                                        .mainimg {
+                                                                                            width: 885px;
+                                                                                            height: 468px;
+                                                                                            background: url(image1.png);
+                                                                                        }
+                                                                                        
+                                                                                        .about {
+                                                                                            width: 380px;
+                                                                                            height: 120px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 200;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .more {
+                                                                                            height: 80px;
+                                                                                            background: #9C69E2;
+                                                                                            border-radius: 50px;
+                                                                                            width: 170px;
+                                                                                            height: 50px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            display: center;
+                                                                                            align-items: center;
+                                                                                            text-align: center;
+                                                                                            color: #FFFFFF;
+                                                                                        }
+                                                                                        
+                                                                                        .container-title {
+                                                                                            width: 50%;
+                                                                                            z-index: 10;
+                                                                                        }
+                                                                                        
+                                                                                        .container-image {
+                                                                                            position: absolute;
+                                                                                            right: -70px;
+                                                                                            bottom: -50px;
+                                                                                        }
+                                                                                        
+                                                                                        .infocontainer {
+                                                                                            position: absolute;
+                                                                                            width: 1117px;
+                                                                                            height: 560px;
+                                                                                            left: 240px;
+                                                                                            top: 903.18px;
+                                                                                            background: rgba(240, 99, 184, 0.15);
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        h3 {
+                                                                                            position: inherit;
+                                                                                            width: 475px;
+                                                                                            height: 100px;
+                                                                                            left: 590px;
+                                                                                            top: 28.18px;
+                                                                                            font-family: Helvetica;
+                                                                                            font-style: normal;
+                                                                                            font-weight: bold;
+                                                                                            font-size: 40px;
+                                                                                            line-height: 130%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .image2 {
+                                                                                            width: 477px;
+                                                                                            height: 504px;
+                                                                                        }
+                                                                                        
+                                                                                        .infoabout {
+                                                                                            position: inherit;
+                                                                                            width: 474px;
+                                                                                            height: 170px;
+                                                                                            left: 590px;
+                                                                                            top: 168.18px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .features_title {
+                                                                                            position: absolute;
+                                                                                            width: 405px;
+                                                                                            height: 52px;
+                                                                                            left: 730px;
+                                                                                            top: 1615px;
+                                                                                            font-family: Helvetica;
+                                                                                            font-style: normal;
+                                                                                            font-weight: bold;
+                                                                                            font-size: 40px;
+                                                                                            line-height: 130%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .features {
+                                                                                            position: absolute;
+                                                                                            width: 584px;
+                                                                                            height: 58px;
+                                                                                            left: 523.49px;
+                                                                                            top: 1715px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            text-align: center;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .common_1 {
+                                                                                            position: absolute;
+                                                                                            width: 442px;
+                                                                                            height: 358px;
+                                                                                            left: 328.29px;
+                                                                                            top: 1873px;
+                                                                                            background-color: #68C9BA;
+                                                                                            background: url(./images/Rectangle39.png);
+                                                                                            opacity: 0.8;
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .commonimg_1 {
+                                                                                            position: absolute;
+                                                                                            width: 232px;
+                                                                                            height: 211px;
+                                                                                            left: -60px;
+                                                                                            top: 96px;
+                                                                                        }
+                                                                                        
+                                                                                        .title_1 {
+                                                                                            position: absolute;
+                                                                                            width: 200px;
+                                                                                            height: 50px;
+                                                                                            left: 180px;
+                                                                                            top: -10px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 24px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .info_1 {
+                                                                                            position: absolute;
+                                                                                            width: 220px;
+                                                                                            height: 160px;
+                                                                                            left: 180px;
+                                                                                            top: 80px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .common_2 {
+                                                                                            position: absolute;
+                                                                                            width: 442px;
+                                                                                            height: 358px;
+                                                                                            left: 928.29px;
+                                                                                            top: 1873px;
+                                                                                            background-color: #9C69E2;
+                                                                                            background: url(./images/Rectangle39:1.png);
+                                                                                            opacity: 0.8;
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .commonimg_2 {
+                                                                                            position: absolute;
+                                                                                            width: 232px;
+                                                                                            height: 211px;
+                                                                                            left: -60px;
+                                                                                            top: 66px;
+                                                                                        }
+                                                                                        
+                                                                                        .title_2 {
+                                                                                            position: absolute;
+                                                                                            width: 200px;
+                                                                                            height: 50px;
+                                                                                            left: 180px;
+                                                                                            top: -10px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 24px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .info_2 {
+                                                                                            position: absolute;
+                                                                                            width: 220px;
+                                                                                            height: 160px;
+                                                                                            left: 180px;
+                                                                                            top: 80px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .common_3 {
+                                                                                            position: absolute;
+                                                                                            width: 442px;
+                                                                                            height: 358px;
+                                                                                            left: 308.29px;
+                                                                                            top: 2283px;
+                                                                                            background-color: #9C69E2;
+                                                                                            background: url(./images/Rectangle39:2.png);
+                                                                                            opacity: 0.8;
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .commonimg_3 {
+                                                                                            position: absolute;
+                                                                                            width: 252px;
+                                                                                            height: 211px;
+                                                                                            left: -80px;
+                                                                                            top: 66px;
+                                                                                        }
+                                                                                        
+                                                                                        .title_3 {
+                                                                                            position: absolute;
+                                                                                            width: 200px;
+                                                                                            height: 50px;
+                                                                                            left: 180px;
+                                                                                            top: -10px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 24px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .info_3 {
+                                                                                            position: absolute;
+                                                                                            width: 220px;
+                                                                                            height: 160px;
+                                                                                            left: 180px;
+                                                                                            top: 80px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .common_4 {
+                                                                                            position: absolute;
+                                                                                            width: 442px;
+                                                                                            height: 358px;
+                                                                                            left: 928.29px;
+                                                                                            top: 2283px;
+                                                                                            background-color: #9C69E2;
+                                                                                            background: url(./images/Rectangle39:3.png);
+                                                                                            opacity: 0.8;
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .commonimg_4 {
+                                                                                            position: absolute;
+                                                                                            width: 235px;
+                                                                                            height: 211px;
+                                                                                            left: -60px;
+                                                                                            top: 66px;
+                                                                                        }
+                                                                                        
+                                                                                        .title_4 {
+                                                                                            position: absolute;
+                                                                                            width: 200px;
+                                                                                            height: 50px;
+                                                                                            left: 180px;
+                                                                                            top: -10px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 24px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .info_4 {
+                                                                                            position: absolute;
+                                                                                            width: 220px;
+                                                                                            height: 160px;
+                                                                                            left: 180px;
+                                                                                            top: 80px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .testimonials {
+                                                                                            position: absolute;
+                                                                                            width: 1118px;
+                                                                                            height: 709px;
+                                                                                            left: 242px;
+                                                                                            top: 2789px;
+                                                                                            background: url(./images/Rectangle34.png);
+                                                                                            border-radius: 50px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_tiltle {
+                                                                                            position: absolute;
+                                                                                            width: 405px;
+                                                                                            height: 52px;
+                                                                                            left: 105px;
+                                                                                            top: 68px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: bold;
+                                                                                            font-size: 40px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #FFFFFF;
+                                                                                        }
+                                                                                        
+                                                                                        .test_box1 {
+                                                                                            position: absolute;
+                                                                                            width: 645px;
+                                                                                            height: 330px;
+                                                                                            left: 93px;
+                                                                                            top: 238px;
+                                                                                            background: #FFFFFF;
+                                                                                            box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+                                                                                            border-radius: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_box2 {
+                                                                                            position: absolute;
+                                                                                            width: 400px;
+                                                                                            height: 330px;
+                                                                                            left: 760px;
+                                                                                            top: 238px;
+                                                                                            background: linear-gradient(90deg, #FFFFFF 80%, rgba(255, 255, 255, 0) 100%);
+                                                                                            border: 1px solid #9C69E2;
+                                                                                            box-sizing: border-box;
+                                                                                            border-radius: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_box3 {
+                                                                                            position: absolute;
+                                                                                            width: 400px;
+                                                                                            height: 330px;
+                                                                                            left: 1180px;
+                                                                                            top: 238px;
+                                                                                            background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+                                                                                            border: 1px solid #9C69E2;
+                                                                                            box-sizing: border-box;
+                                                                                            border-radius: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_name1 {
+                                                                                            position: absolute;
+                                                                                            width: 170px;
+                                                                                            height: 29px;
+                                                                                            left: 175px;
+                                                                                            top: 58px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: 900;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            letter-spacing: 0.005em;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .test_web1 {
+                                                                                            position: absolute;
+                                                                                            width: 101px;
+                                                                                            height: 22px;
+                                                                                            left: 175px;
+                                                                                            top: 98px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 14px;
+                                                                                            line-height: 160%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            letter-spacing: 0.01em;
+                                                                                            color: #9C69E2;
+                                                                                        }
+                                                                                        
+                                                                                        .test_photo1 {
+                                                                                            position: absolute;
+                                                                                            width: 90px;
+                                                                                            height: 90px;
+                                                                                            left: 50px;
+                                                                                            top: 68px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_text1 {
+                                                                                            position: absolute;
+                                                                                            width: 375px;
+                                                                                            height: 130px;
+                                                                                            left: 175px;
+                                                                                            top: 118px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 180%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .test_name2 {
+                                                                                            position: absolute;
+                                                                                            width: 170px;
+                                                                                            height: 29px;
+                                                                                            left: 175px;
+                                                                                            top: 58px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: bold;
+                                                                                            font-weight: 900;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            letter-spacing: 0.005em;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .test_web2 {
+                                                                                            position: absolute;
+                                                                                            width: 101px;
+                                                                                            height: 22px;
+                                                                                            left: 175px;
+                                                                                            top: 98px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 14px;
+                                                                                            line-height: 160%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            letter-spacing: 0.01em;
+                                                                                            color: #9C69E2;
+                                                                                        }
+                                                                                        
+                                                                                        .test_photo2 {
+                                                                                            position: absolute;
+                                                                                            width: 90px;
+                                                                                            height: 90px;
+                                                                                            left: 50px;
+                                                                                            top: 68px;
+                                                                                        }
+                                                                                        
+                                                                                        .test_text2 {
+                                                                                            position: absolute;
+                                                                                            width: 200px;
+                                                                                            height: 130px;
+                                                                                            left: 175px;
+                                                                                            top: 118px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 180%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .sub_title {
+                                                                                            position: absolute;
+                                                                                            width: 405px;
+                                                                                            height: 52px;
+                                                                                            left: 240px;
+                                                                                            top: 3650px;
+                                                                                            font-family: Helvetica;
+                                                                                            font-style: normal;
+                                                                                            font-weight: bold;
+                                                                                            font-size: 40px;
+                                                                                            line-height: 130%;
+                                                                                            display: flex;
+                                                                                            align-items: center;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .sub_text {
+                                                                                            position: absolute;
+                                                                                            width: 584px;
+                                                                                            height: 29px;
+                                                                                            left: 240px;
+                                                                                            top: 3771px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 18px;
+                                                                                            line-height: 160%;
+                                                                                            color: #4B5D68;
+                                                                                        }
+                                                                                        
+                                                                                        .footer1 {
+                                                                                            position: absolute;
+                                                                                            width: 170px;
+                                                                                            height: 60px;
+                                                                                            left: 947px;
+                                                                                            top: 3771px;
+                                                                                            background: #F063B8;
+                                                                                            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+                                                                                            border-radius: 50px;
+                                                                                            font-family: Avenir;
+                                                                                            color: #FFFFFF;
+                                                                                        }
+                                                                                        
+                                                                                        .footer2 {
+                                                                                            position: absolute;
+                                                                                            width: 210px;
+                                                                                            height: 60px;
+                                                                                            left: 1147px;
+                                                                                            top: 3767px;
+                                                                                            background: #FFFFFF;
+                                                                                            box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+                                                                                            border-radius: 50px;
+                                                                                            font-family: Avenir;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_logo1 {
+                                                                                            position: absolute;
+                                                                                            width: 20px;
+                                                                                            height: 20px;
+                                                                                            left: 240px;
+                                                                                            top: 4016px;
+                                                                                            background: #9C69E2;
+                                                                                            border-radius: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_logo2 {
+                                                                                            position: absolute;
+                                                                                            width: 20px;
+                                                                                            height: 35px;
+                                                                                            left: 269px;
+                                                                                            top: 4001px;
+                                                                                            background: #F063B8;
+                                                                                            border-radius: 20px;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_title {
+                                                                                            position: absolute;
+                                                                                            width: 153px;
+                                                                                            height: 30px;
+                                                                                            left: 309px;
+                                                                                            top: 3990px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 20px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_info1 {
+                                                                                            position: absolute;
+                                                                                            width: 51.75px;
+                                                                                            height: 30px;
+                                                                                            left: 715px;
+                                                                                            top: 3998px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_info2 {
+                                                                                            position: absolute;
+                                                                                            width: 51.75px;
+                                                                                            height: 30px;
+                                                                                            left: 915px;
+                                                                                            top: 3998px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .footer_info3 {
+                                                                                            position: absolute;
+                                                                                            width: 101.75px;
+                                                                                            height: 30px;
+                                                                                            left: 1215px;
+                                                                                            top: 3978px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 800;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 160%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .adress {
+                                                                                            position: absolute;
+                                                                                            width: 335px;
+                                                                                            height: 65px;
+                                                                                            left: 240px;
+                                                                                            top: 4101px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: 500;
+                                                                                            font-size: 20px;
+                                                                                            line-height: 180%;
+                                                                                            letter-spacing: 0.01em;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .social_info {
+                                                                                            position: absolute;
+                                                                                            width: 335px;
+                                                                                            height: 60px;
+                                                                                            left: 240px;
+                                                                                            top: 4206px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 180%;
+                                                                                            letter-spacing: 0.01em;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        li {
+                                                                                            list-style-type: none;
+                                                                                        }
+                                                                                        
+                                                                                        .about_info {
+                                                                                            position: absolute;
+                                                                                            width: 166px;
+                                                                                            height: 160px;
+                                                                                            left: 675px;
+                                                                                            top: 4071px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 250%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .help_info {
+                                                                                            position: absolute;
+                                                                                            width: 166px;
+                                                                                            height: 190px;
+                                                                                            left: 871px;
+                                                                                            top: 4071px;
+                                                                                            font-family: Avenir;
+                                                                                            font-style: normal;
+                                                                                            font-weight: normal;
+                                                                                            font-size: 16px;
+                                                                                            line-height: 250%;
+                                                                                            color: #212353;
+                                                                                        }
+                                                                                        
+                                                                                        .socialmedia_icons {
+                                                                                            position: absolute;
+                                                                                            left: 1171px;
+                                                                                            top: 4071px;
+                                                                                        }
+                                                                                        
+                                                                                        .socialmedia_icons li {
+                                                                                            flex: 1;
+                                                                                            display: inline;
+                                                                                        }
